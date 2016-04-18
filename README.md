@@ -1,9 +1,8 @@
 # PostCSS
 ## 
 
-SESIÓN 0 - PostCSS: Lo que necesitas saber
-Origen, ¿Qué es PostCSS?, ¿Qué no es PostCSS?, ¿Por qué usarlo?
-
+[SESIÓN 0 - PostCSS: Lo que necesitas saber
+Origen, ¿Qué es PostCSS?, ¿Qué no es PostCSS?, ¿Por qué usarlo?](https://github.com/EscuelaIt/PostCSS-2016/blob/master/Sesion0/PostCSS.%20Sesi%C3%B3n%200.pdf)
 
 SESIÓN 1 - Entornos de desarrollo
 Herramientas para usar Gulp, Grunt, npm, PostCSS, Codepen, Prepros
