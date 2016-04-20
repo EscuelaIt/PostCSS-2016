@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/style.css"],"names":[],"mappings":"AAAA;EACE,iBAAiB;EACjB,qBAAc;EAAd,sBAAc;EAAd,qBAAc;EAAd,cAAc;CACf","file":"style.css","sourcesContent":[".nak {\n  background: #000;\n  display: flex;\n}"]}

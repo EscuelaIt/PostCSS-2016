@@ -1,0 +1,18 @@
+{
+  "name": "EscuelaIT-postcss-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss -c config-postcss.json -w --no-map.inline"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssnext": "^1.8.4",
+    "postcss-cli": "^2.5.1",
+    "precss": "^1.4.0"
+  }
+}

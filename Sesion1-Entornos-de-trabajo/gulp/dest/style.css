@@ -1,0 +1,21 @@
+/*autoprefixer*/
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+/*custom properties*/
+
+.custom {
+  background: #000;
+}
+
+/*variables sass*/
+
+.bg {
+  background: #000;
+}

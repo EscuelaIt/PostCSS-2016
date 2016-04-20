@@ -1,0 +1,21 @@
+/*autoprefixer*/
+.container {
+  display: flex;
+  transform: scale(2);
+}
+
+/*custom properties*/
+:root {
+  --color: #000;
+}
+
+.custom {
+  background: var(--color);
+}
+
+/*variables sass*/
+$color: #000;
+
+.bg {
+  background: $color;
+}

@@ -1,0 +1,12 @@
+{
+  "use": [
+    "autoprefixer",
+    "cssnext",
+    "precss" 
+  ],
+  "autoprefixer": {
+	  "browsers": ["last 1 version"]
+  },
+  "input": "src/style.css",
+  "output": "dest/style.css"
+}
