@@ -1,0 +1,65 @@
+@import 'utils/vars';
+
+/* some var() & calc() */
+body {
+    color: var(--mainColor);
+    font-size: var(--fontSize);
+    line-height: calc(var(--fontSize) * 1.5);
+    padding: calc((var(--fontSize) / 2) + 1px);
+}
+
+/* custom media query usage */
+
+@media (--viewport-medium) {
+    body {
+        font-size: calc(var(--fontSize) * 1.2);
+    }
+}
+
+
+:--heading {
+    margin-top: 0
+}
+
+:--button {
+  background-color: lightcoral;
+}
+:--button:--enter {
+  background-color: lightblue;
+}
+
+
+/* colors stuff */
+
+a {
+    color: var(--highlightColor);
+    transition: color 1s;
+    /* autoprefixed ! */
+}
+a:hover {
+    color: gray(255, 50%)
+}
+a:active {
+    color: rebeccapurple
+}
+a:any-link {
+    color: color(var(--highlightColor) blackness(+20%))
+}
+
+/* font stuff */
+
+h2 {
+    font-variant-caps: small-caps;
+}
+table {
+    font-variant-numeric: lining-nums;
+}
+
+/* filters */
+
+.blur {
+    filter: blur(15px);
+}
+.sepia {
+    filter: sepia(.8);
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Sesion2-CSS-del-Futuro",
+  "version": "1.0.0",
+  "description": "Ejemplo para la clase de CSS del Futuro",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "cssnext",
+    "EscuelaIT"
+  ],
+  "author": {
+    "name": "Joan Leon",
+    "github": "http://github.com/nucliweb",
+    "email": "joan.leon@gmail.com",
+    "twitter": "@nucliweb"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.0",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-import": "^8.1.0"
+  }
+}

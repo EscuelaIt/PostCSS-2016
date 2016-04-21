@@ -1,0 +1,17 @@
+/* custom properties */
+
+:root {
+    --fontSize: 1rem;
+    --mainColor: #12345678;
+    --highlightColor: hwb(190, 35%, 20%);
+}
+
+/* custom media queries */
+
+@custom-media --viewport-medium (width <=50rem);
+
+/* custom selectors */
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+@custom-selector :--button button, .button;
+@custom-selector :--enter :hover, :focus;
