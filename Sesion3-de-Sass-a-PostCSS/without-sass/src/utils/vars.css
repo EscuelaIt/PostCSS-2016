@@ -1,0 +1,6 @@
+$color: pink;
+
+@define-mixin nak {
+  background: #000;
+  width: 300px;
+}

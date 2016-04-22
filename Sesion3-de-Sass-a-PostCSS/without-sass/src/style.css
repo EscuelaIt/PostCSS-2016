@@ -1,0 +1,24 @@
+/*import*/
+@import "utils/vars";
+
+.nak {
+  background: #000;
+}
+
+
+
+.nak2 {
+  background: $color; 
+   @mixin nak; 
+   display: flex;
+}
+
+
+ /*nesting*/
+.nak3 {
+  @mixin nak;  
+  background: pink;
+  &:hover{
+  	background:red;
+  } 
+} 

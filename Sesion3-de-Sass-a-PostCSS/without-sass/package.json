@@ -1,0 +1,21 @@
+{
+  "name": "withoutSass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.0",
+    "postcss-import": "^8.1.0",
+    "postcss-mixins": "^4.0.1",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^1.2.0"
+  }
+}

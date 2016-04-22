@@ -1,0 +1,22 @@
+/*import*/
+.nak {
+  background: #000;
+}
+.nak2 {
+  background: pink; 
+   background: #000; 
+   width: 300px; 
+   display: -webkit-box; 
+   display: -webkit-flex; 
+   display: -ms-flexbox; 
+   display: flex;
+}
+/*nesting*/
+.nak3 {
+  background: #000;
+  width: 300px;  
+  background: pink; 
+}
+.nak3:hover{
+  background:red;
+} 
