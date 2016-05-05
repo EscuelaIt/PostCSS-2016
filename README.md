@@ -8,8 +8,8 @@ Origen, ¿Qué es PostCSS?, ¿Qué no es PostCSS?, ¿Por qué usarlo?](https://g
 Herramientas para usar Gulp, Grunt, npm, PostCSS, Codepen, Prepros](https://github.com/EscuelaIt/PostCSS-2016/blob/master/Sesion1-Entornos-de-trabajo/PostCSS-Sesion1-Entornos-de-desarrollo.pdf)
 
 
-SESIÓN 2 - De Sass a PostCSS
-Cómo configurar PostCSS para desarrollar como si fuera Sass
+[SESIÓN 2 - De Sass a PostCSS
+Cómo configurar PostCSS para desarrollar como si fuera Sass](https://github.com/EscuelaIt/PostCSS-2016/tree/master/Sesion2-CSS-del-Futuro)
 
 
 [SESIÓN 3 - CSS del futuro
