@@ -7,7 +7,6 @@ gulp.task('sass', function() {
         .pipe(sass({
             outputStyle: 'expanded'
         }))
-      
         .pipe(gulp.dest('./dest'))
 
 });

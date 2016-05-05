@@ -1,22 +1,30 @@
-/*import*/
-.nak {
-  background: #000;
+:root {
+  --color2: red;
 }
-.nak2 {
-  background: pink; 
-   background: #000; 
-   width: 300px; 
-   display: -webkit-box; 
-   display: -webkit-flex; 
-   display: -ms-flexbox; 
-   display: flex;
+
+.escuelait {
+    background: pink;
 }
-/*nesting*/
-.nak3 {
-  background: #000;
-  width: 300px;  
-  background: pink; 
+
+/*.postcss {
+  background: var(--color2);
+}*/
+
+.postcss {
+    background: pink;
+    width: 300px;
+    -webkit-transform: scale(3);
+            transform: scale(3);
 }
-.nak3:hover{
-  background:red;
-} 
+
+.postcss .child{
+  background: pink;
+}
+
+.postcss .child:hover{
+  background:white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}

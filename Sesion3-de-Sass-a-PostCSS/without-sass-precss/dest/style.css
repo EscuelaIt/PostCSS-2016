@@ -1,0 +1,94 @@
+/*variable sass*/
+/*custom properties*/
+/*mixin*/
+
+.sass {
+  background: pink;
+}
+
+.sass-custom {
+  background: red;
+}
+
+.sass-custom .child {
+  background: white;
+}
+
+.sass-custom .child .nieto {
+  background: pink;
+}
+
+.sass-custom:hover {
+  background: black;
+}
+
+.escuelaIT{ 
+	display: flex; 
+}
+
+.escuelaIT .sass-custom {
+  background: red;
+}
+
+.escuelaIT .sass-custom .child {
+  background: white;
+}
+
+.escuelaIT .sass-custom .child .nieto {
+  background: pink;
+}
+
+.escuelaIT .sass-custom:hover {
+  background: black;
+}
+
+.notice--clear {
+    background: blue
+}
+
+
+
+.b-1 {
+  width: 1px;
+}
+
+
+
+.b-2 {
+  width: 2px;
+}
+
+
+
+.b-3 {
+  width: 3px;
+}
+
+.icon-foo {
+  background: url('icons/foo.png');
+}
+
+.icon-bar {
+  background: url('icons/bar.png');
+}
+
+.icon-baz {
+  background: url('icons/baz.png');
+}
+
+.search {
+    padding-left: 16px;
+}
+
+.search::after {
+  content: "";
+  /*background-url: url(/icons/$(name).png);*/
+  background: url(/icons/search.png);
+}
+
+.notice--clear {
+    background: green;
+}
+
+
+

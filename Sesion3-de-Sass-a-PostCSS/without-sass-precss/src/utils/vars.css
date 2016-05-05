@@ -1,5 +1,7 @@
+/*variable sass*/
 $color: pink;
 
+/*custom properties*/
 :root {
   --color2: red;
 }

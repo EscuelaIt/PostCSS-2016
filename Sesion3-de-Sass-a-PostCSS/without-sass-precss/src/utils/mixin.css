@@ -1,0 +1,25 @@
+/*mixin*/
+
+@define-mixin escuelaIT {
+  .sass-custom {
+    background: var(--color2);
+    &:hover {
+      background: black;
+    }
+    .child {
+      background: white;
+      .nieto {
+        background: pink;
+      }
+    }
+  }
+}
+@define-mixin icon $name {
+    padding-left: 16px;
+
+    &::after {
+        content: "";
+        /*background-url: url(/icons/$(name).png);*/
+        background: url(/icons/$(name).png);
+    }
+}

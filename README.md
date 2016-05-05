@@ -12,8 +12,8 @@ SESIÓN 2 - De Sass a PostCSS
 Cómo configurar PostCSS para desarrollar como si fuera Sass
 
 
-SESIÓN 3 - CSS del futuro
-Cómo configurar PostCSS para desarrollar con la próxima generación de CSS
+[SESIÓN 3 - CSS del futuro
+Cómo configurar PostCSS para desarrollar con la próxima generación de CSS](https://github.com/EscuelaIt/PostCSS-2016/blob/master/Sesion3-de-Sass-a-PostCSS/PostCSS-Sesion3-De-Sass-a-PostCSS.pdf)
 
 
 SESIÓN 4 - Plugins

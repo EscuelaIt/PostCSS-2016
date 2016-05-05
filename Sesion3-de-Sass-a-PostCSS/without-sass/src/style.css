@@ -1,24 +1,20 @@
-/*import*/
 @import "utils/vars";
-
-.nak {
-  background: #000;
+@import "utils/mixin";
+.escuelait {
+    background: $color;
 }
 
+/*.postcss {
+  background: var(--color2);
+}*/
 
-
-.nak2 {
-  background: $color; 
-   @mixin nak; 
-   display: flex;
+.postcss {
+    @mixin postcss 300px, 3;
+    .child{
+    	background: pink;
+    	&:hover{
+    		background:white;
+    		display: flex; 
+    	}
+    }
 }
-
-
- /*nesting*/
-.nak3 {
-  @mixin nak;  
-  background: pink;
-  &:hover{
-  	background:red;
-  } 
-} 

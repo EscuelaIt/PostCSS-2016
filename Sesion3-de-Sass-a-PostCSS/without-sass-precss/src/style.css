@@ -1,0 +1,62 @@
+@import "utils/vars.css";
+@import "utils/mixin.css";
+
+.sass {
+  background: $color;
+}
+
+.sass-custom {
+  background: var(--color2);
+  &:hover {
+    background: black;
+  }
+  .child {
+    background: white;
+    .nieto {
+      background: pink;
+    }
+  }
+}
+
+.escuelaIT{
+	@mixin escuelaIT; 
+	display: flex; 
+}
+
+.notice--clear {
+    @if 7 < 5 {
+        background: green;
+    }
+    @else {
+        background: blue;
+    }
+}
+
+
+
+@for $i from 1 to 3 {
+    .b-$i { width: $(i)px; }
+}
+
+@each $icon in (foo, bar, baz) {
+    .icon-$(icon) {
+        background: url('icons/$(icon).png');
+    }
+}
+
+
+
+.search {
+    @mixin icon search;
+}
+
+@define-extend bg-green {
+    background: green;
+}
+
+.notice--clear {
+    @extend bg-green;
+}
+
+
+
